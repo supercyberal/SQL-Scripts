@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Table Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Table - Get Compression Estimation per Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Get Compression Estimation per Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Get Rows, Col and Space for Tables Per DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Get Rows, Col and Space for Tables Per DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Get Size per Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Get Size per Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Get Table Partition Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Get Table Partition Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Get Tables By Filegroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Get Tables By Filegroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Identify Compression For Objects.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Identify Compression For Objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Move Table To Different FileGroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Move Table To Different FileGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Table - Page Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Table - Page Info.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

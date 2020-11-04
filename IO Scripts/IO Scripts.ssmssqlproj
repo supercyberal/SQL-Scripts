@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="IO Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Maintenance - DB Capacity Planning.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - DB Capacity Planning.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Drive Usage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Drive Usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Check Short Period IO Latencies.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Check Short Period IO Latencies.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - DB Files Overview.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - DB Files Overview.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Autogrow Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Autogrow Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Autogrow Occurences For Files.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Autogrow Occurences For Files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get TempDB IO Stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get TempDB IO Stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - IO Analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - IO Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - DBSizing.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - DBSizing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Shrink Large Files.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Shrink Large Files.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

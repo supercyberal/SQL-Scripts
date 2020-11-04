@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Agent Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Maintenance - Assign Operator to Jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Assign Operator to Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Extract DB Mail Settings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Extract DB Mail Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Get Job Execution Rate.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Get Job Execution Rate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Read OLA Backup and Index command info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Read OLA Backup and Index command info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Search String In Jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Search String In Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Long Running Jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Long Running Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Change OLA Clean-up Time for Jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Change OLA Clean-up Time for Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Remove Maintenance Plans.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Remove Maintenance Plans.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Performance Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Performance - Capture App Timeouts with XE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Capture App Timeouts with XE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Check THREADPOOL wait.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Check THREADPOOL wait.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Collect LATCH stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Collect LATCH stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Collect Wait Stats - Ver 2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Collect Wait Stats - Ver 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Collect Wait Stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Collect Wait Stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Find Deadlocks.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Find Deadlocks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Find Implicit Convertion Plans.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Find Implicit Convertion Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Find Tables That Benefit From Clustered Columnstore Indexes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Find Tables That Benefit From Clustered Columnstore Indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Fixing Many VLFs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Fixing Many VLFs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get LOG VLF Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get LOG VLF Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Parallel Plans and Their Cost.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Parallel Plans and Their Cost.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get SOS_SCHEDULER_YIELD queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get SOS_SCHEDULER_YIELD queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get SQL Inventory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get SQL Inventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get System Health Info - SQL 2012+ Only.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get System Health Info - SQL 2012+ Only.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Tables By Filegroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Tables By Filegroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Waiting Requests.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Waiting Requests.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Kill Low Blocking Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Kill Low Blocking Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Performance Counters.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Performance Counters.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Signal Wait Time.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Signal Wait Time.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - SQL Assesment.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - SQL Assesment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Top 20 IO-CPU-Duration-Frequency Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Top 20 IO-CPU-Duration-Frequency Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Top Most Consuming Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Top Most Consuming Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - WhatIsPerformace View.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - WhatIsPerformace View.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

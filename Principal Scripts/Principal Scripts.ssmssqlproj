@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Principal Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Login - Create User in All custom DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Create User in All custom DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Create-Drop User in All custom DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Create-Drop User in All custom DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get Client Connection Details - 2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get Client Connection Details - 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get Client Connection Details.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get Client Connection Details.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get Guest User Connection.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get Guest User Connection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get List of All Users and Rights For a DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get List of All Users and Rights For a DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get List of Sysadmins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get List of Sysadmins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get Logins With Blank Password.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get Logins With Blank Password.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Get Server Scope Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Get Server Scope Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Login - Grant Exec on sp_WhoIsActive to Non-DBA Logins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Login - Grant Exec on sp_WhoIsActive to Non-DBA Logins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Copy Logins - SQL 2000.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Copy Logins - SQL 2000.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Copy Logins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Copy Logins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintenance - Get Sessions Connected to Server.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Get Sessions Connected to Server.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Number of Current Instance Connections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Number of Current Instance Connections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Session Check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Session Check.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

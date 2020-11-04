@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Backup Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Backups - Check DBs Last FULL, DIFF, TLOG backups.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backups - Check DBs Last FULL, DIFF, TLOG backups.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backups - Details Backup Growth.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backups - Details Backup Growth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backups - Get Backup Time From OLA Cmd Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backups - Get Backup Time From OLA Cmd Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backups - Predict Data Growth.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backups - Predict Data Growth.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backups - Predict Diff Size.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backups - Predict Diff Size.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Restores - List DB Restores.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Restores - List DB Restores.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

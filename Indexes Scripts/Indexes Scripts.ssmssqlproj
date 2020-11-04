@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Indexes Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Indexes - Duplicate Index - 1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Duplicate Index - 1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Duplicate Index - 2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Duplicate Index - 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Get Compressed Indexes Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Get Compressed Indexes Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Get Fragmentation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Get Fragmentation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Get Index Fragmentation - Number 1.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Get Index Fragmentation - Number 1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Get Index Fragmentation - Number 2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Get Index Fragmentation - Number 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Get Statistics Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Get Statistics Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Missing Index.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Missing Index.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Move To a Different FileGroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Move To a Different FileGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Unused Index - 2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Unused Index - 2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Indexes - Unused Index.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Indexes - Unused Index.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

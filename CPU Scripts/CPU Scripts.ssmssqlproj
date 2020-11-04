@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CPU Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Analysis - Create Spinlock XE and analyse output with SQL symbols.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Analysis - Create Spinlock XE and analyse output with SQL symbols.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Calculate CPU Ready Time Pct.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Calculate CPU Ready Time Pct.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - CPU Costly Statements-Schedulers Check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - CPU Costly Statements-Schedulers Check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - CPU Time Per DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - CPU Time Per DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get CPU Pct Usage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get CPU Pct Usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Number of Active Threads.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Number of Active Threads.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Measure CPU Context Switching.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Measure CPU Context Switching.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Non-Page Latch Analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Non-Page Latch Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Parallel Costs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Parallel Costs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Signal Wait Time.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Signal Wait Time.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Spinlock Contention Check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Spinlock Contention Check.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

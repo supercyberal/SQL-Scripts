@@ -1,0 +1,24 @@
+USE [master]
+GO
+
+-- Remove suspect flag.
+EXEC sp_resetstatus '[<DBName_Here>]';
+GO
+
+-- Set DB in Emergency mode and single user.
+ALTER DATABASE [[<DBName_Here>]] SET EMERGENCY;
+GO
+ALTER DATABASE [<DBName_Here>] SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+
+-- Repair DB
+DBCC CHECKDB ([<DBName_Here>]) WITH NO_INFOMSGS, ALL_ERRORMSGS, DATA_PURITY
+GO
+DBCC CHECKDB ([<DBName_Here>], REPAIR_ALLOW_DATA_LOSS) WITH TABLOCK, NO_INFOMSGS, ALL_ERRORMSGS
+GO
+
+-- Put DB back online.
+ALTER DATABASE [<DBName_Here>] SET ONLINE;
+GO
+ALTER DATABASE [<DBName_Here>] SET MULTI_USER;
+GO

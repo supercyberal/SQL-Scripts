@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Tool Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Scripts - 1 - Change DB Collation Procs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - 1 - Change DB Collation Procs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - 2 - Change DB Collation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - 2 - Change DB Collation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Auto-Create Restore Database Procedures.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Auto-Create Restore Database Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Brent Ozar Waits Analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Brent Ozar Waits Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Change DB Collation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Change DB Collation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Change OLA Clean-up Time for Jobs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Change OLA Clean-up Time for Jobs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Check for Enterprise Edition Features.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Check for Enterprise Edition Features.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Create Numbers Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Create Numbers Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Create Proc Example.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Create Proc Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - DB Clone with Stats Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - DB Clone with Stats Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - DBSizing.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - DBSizing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Drop ALL Indexes and Stats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Drop ALL Indexes and Stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Fix DB in Suspect Mode.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Fix DB in Suspect Mode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - fn_List2Table Function.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - fn_List2Table Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Generate Attach-Detach DB statement.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Generate Attach-Detach DB statement.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Get Instance Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Get Instance Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - How Much Changes on DB Since Last FULL Backup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - How Much Changes on DB Since Last FULL Backup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Instant File Initialization Checker.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Instant File Initialization Checker.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Job Schedule - Search.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Job Schedule - Search.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Job Schedule - System Functions.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Job Schedule - System Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Job Schedule Details.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Job Schedule Details.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Kill Sessions of a Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Kill Sessions of a Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Move Table or Indexes to Diff FileGroup.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Move Table or Indexes to Diff FileGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - OLA - Find Backups From Dropped DBs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - OLA - Find Backups From Dropped DBs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - OLA - Job Drop and Creation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - OLA - Job Drop and Creation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - OLA - Maintenance Solution - Complete Set.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - OLA - Maintenance Solution - Complete Set.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Purge Records Example.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Purge Records Example.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Read SQL Error Log Descending.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Read SQL Error Log Descending.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Remove Maintenance Plans.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Remove Maintenance Plans.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Remove MDW.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Remove MDW.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Script Out DB Mail Settings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Script Out DB Mail Settings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Server Inventory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Server Inventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Service Broker - Cleanup stuck messages not in queues.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Service Broker - Cleanup stuck messages not in queues.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Service Broker - OLA - Setup Using Parallel Tasks.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Service Broker - OLA - Setup Using Parallel Tasks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Service Broker - Remove Items From Queue.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Service Broker - Remove Items From Queue.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Setup DB Snapshop.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Setup DB Snapshop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_AskBrent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_AskBrent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_Blitz.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_Blitz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_BlitzIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_BlitzIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_CheckSPIDs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_CheckSPIDs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_helpindex2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_helpindex2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_IndexAnalysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_IndexAnalysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - sp_WhoIsActive.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - sp_WhoIsActive.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - spAllocationMetaData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - spAllocationMetaData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - spInstanceInitSettings.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - spInstanceInitSettings.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - Split2Value Function.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Split2Value Function.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2005 - Diagnostic Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2005 - Diagnostic Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2008 - Diagnostic Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2008 - Diagnostic Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2008R2 - Diagnostic Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2008R2 - Diagnostic Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2012 - Diagnostic Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2012 - Diagnostic Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2014 - Diagnostic Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2014 - Diagnostic Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2016 - Diagnostics Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2016 - Diagnostics Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL 2017 - Diagnostics Info Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL 2017 - Diagnostics Info Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2012 Performance Dashboard Reports.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2012 Performance Dashboard Reports.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQLDM - Get XML for Reg-Gate Multi-Script.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQLDM - Get XML for Reg-Gate Multi-Script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - To Get Loaded Statistics For Query.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - To Get Loaded Statistics For Query.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

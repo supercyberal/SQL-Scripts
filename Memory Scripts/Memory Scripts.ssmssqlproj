@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Memory Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Performance - Debug CMEMTHREAD.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Debug CMEMTHREAD.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Extract Ring Buffer Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Extract Ring Buffer Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Detail Memory Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Detail Memory Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Max Memory Calculation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Max Memory Calculation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Get Out of Memory Optimization Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Get Out of Memory Optimization Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Memory Buffer Pool Investigation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Memory Buffer Pool Investigation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Memory Check.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Memory Check.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Plan Cache Analyzer.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Plan Cache Analyzer.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Querying Buffer Cache.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Querying Buffer Cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Querying Plan Cache.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Querying Plan Cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Resource-Semaphore Info.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Resource-Semaphore Info.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Setting MIN and MAX memory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Setting MIN and MAX memory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Performance - Troubleshoot-RESOURCE_SEMAPHORE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Troubleshoot-RESOURCE_SEMAPHORE.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

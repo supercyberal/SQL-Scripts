@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Maintenance Scripts", "Maintenance Scripts\Maintenance Scripts.ssmssqlproj", "{8D0D837C-E841-471C-A8C8-5A382CC44F7F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "CPU Scripts", "CPU Scripts\CPU Scripts.ssmssqlproj", "{CA18AB5E-A5C1-4252-9C96-B1D0E8819371}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "HA Scripts", "HA Scripts\HA Scripts.ssmssqlproj", "{5D7300BA-BB24-4F31-8FF8-E55DC6B13D41}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Indexes Scripts", "Indexes Scripts\Indexes Scripts.ssmssqlproj", "{809F3DB8-C938-49F0-82F3-EBD8FFC723F3}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "IO Scripts", "IO Scripts\IO Scripts.ssmssqlproj", "{1E01A817-88FC-4BAD-889B-309DD73DC186}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Memory Scripts", "Memory Scripts\Memory Scripts.ssmssqlproj", "{16372C98-864A-4298-95CB-7F8A78F809AE}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Principal Scripts", "Principal Scripts\Principal Scripts.ssmssqlproj", "{6CDA0C55-CA41-437B-A6B0-0C34CCE14D2D}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Agent Scripts", "SQL Agent Scripts\SQL Agent Scripts.ssmssqlproj", "{609E4E73-A2F9-4809-88CB-C8F8BE3C36F7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "TempDB Scripts", "TempDB Scripts\TempDB Scripts.ssmssqlproj", "{1C84A071-5F48-45E0-89DE-51B5DD39162C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Table Scripts", "Table Scripts\Table Scripts.ssmssqlproj", "{A49E51D9-8F3D-486A-B045-5E2026FC365C}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Tool Scripts", "Tool Scripts\Tool Scripts.ssmssqlproj", "{C529751E-D1C1-46E9-B702-C6CC5EE232C7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Performance Scripts", "Performance Scripts\Performance Scripts.ssmssqlproj", "{FC92B64E-A5CC-4EE5-AF27-86F31FB0AD2A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Backup Scripts", "Backup Scripts\Backup Scripts.ssmssqlproj", "{CF87A582-30EF-4B80-B169-FE934E3E910F}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Daily Scripts", "Daily Scripts\Daily Scripts.ssmssqlproj", "{75BA7340-890E-42D8-A728-B0250300B6EC}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Cloud Scripts", "Cloud Scripts\Cloud Scripts.ssmssqlproj", "{D831C6A2-6742-4902-A855-6FAB6D32B910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB358455-60A9-406C-804A-A55CE366916A}.Default|Default.ActiveCfg = Default
+		{8D0D837C-E841-471C-A8C8-5A382CC44F7F}.Default|Default.ActiveCfg = Default
+		{CA18AB5E-A5C1-4252-9C96-B1D0E8819371}.Default|Default.ActiveCfg = Default
+		{5D7300BA-BB24-4F31-8FF8-E55DC6B13D41}.Default|Default.ActiveCfg = Default
+		{809F3DB8-C938-49F0-82F3-EBD8FFC723F3}.Default|Default.ActiveCfg = Default
+		{1E01A817-88FC-4BAD-889B-309DD73DC186}.Default|Default.ActiveCfg = Default
+		{16372C98-864A-4298-95CB-7F8A78F809AE}.Default|Default.ActiveCfg = Default
+		{6CDA0C55-CA41-437B-A6B0-0C34CCE14D2D}.Default|Default.ActiveCfg = Default
+		{609E4E73-A2F9-4809-88CB-C8F8BE3C36F7}.Default|Default.ActiveCfg = Default
+		{1C84A071-5F48-45E0-89DE-51B5DD39162C}.Default|Default.ActiveCfg = Default
+		{A49E51D9-8F3D-486A-B045-5E2026FC365C}.Default|Default.ActiveCfg = Default
+		{C529751E-D1C1-46E9-B702-C6CC5EE232C7}.Default|Default.ActiveCfg = Default
+		{FC92B64E-A5CC-4EE5-AF27-86F31FB0AD2A}.Default|Default.ActiveCfg = Default
+		{CF87A582-30EF-4B80-B169-FE934E3E910F}.Default|Default.ActiveCfg = Default
+		{75BA7340-890E-42D8-A728-B0250300B6EC}.Default|Default.ActiveCfg = Default
+		{D831C6A2-6742-4902-A855-6FAB6D32B910}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D380A426-2E79-4BA2-BC1F-B68F54162541}
+	EndGlobalSection
+EndGlobal
