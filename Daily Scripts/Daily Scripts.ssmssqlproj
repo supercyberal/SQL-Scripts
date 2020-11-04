@@ -2,20 +2,7 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Daily Scripts">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items>
-        <ConnectionNode Name="AM1ITDB001\APPDATA:WCNET\costaal-adm">
-          <Created>2018-08-23T12:08:42.2231945-04:00</Created>
-          <Type>SQL</Type>
-          <Server>AM1ITDB001\APPDATA</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB />
-          <LoginTimeout>30</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-      </Items>
+      <Items />
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
@@ -24,12 +11,6 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Check-SQL-Install-Info.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQL Inventory Queries.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:AM1ITDB001\APPDATA:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>AM1ITDB001\APPDATA</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQL Inventory Queries.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

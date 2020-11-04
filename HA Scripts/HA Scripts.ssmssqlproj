@@ -2,20 +2,7 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="HA Scripts">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items>
-        <ConnectionNode Name="DR-AM1FNDB971\FINDATA:WCNET\costaal-adm">
-          <Created>2020-10-27T16:08:21.0879285-04:00</Created>
-          <Type>SQL</Type>
-          <Server>DR-AM1FNDB971\FINDATA</Server>
-          <UserName />
-          <Authentication>Windows Authentication</Authentication>
-          <InitialDB>master</InitialDB>
-          <LoginTimeout>30</LoginTimeout>
-          <ExecutionTimeout>0</ExecutionTimeout>
-          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
-        </ConnectionNode>
-      </Items>
+      <Items />
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
@@ -38,14 +25,14 @@
           <FullPath>DB Mirroring - Get Mirror Status.sql</FullPath>
         </FileNode>
         <FileNode Name="HADR - Collect WaitInfo for AG REDO.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DR-AM1FNDB971\FINDATA:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DR-AM1FNDB971\FINDATA</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>HADR - Collect WaitInfo for AG REDO.sql</FullPath>
         </FileNode>
         <FileNode Name="HADR - Get AG Seeding Status.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DR-AM1FNDB971\FINDATA:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DR-AM1FNDB971\FINDATA</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>HADR - Get AG Seeding Status.sql</FullPath>
         </FileNode>

@@ -66,6 +66,12 @@
           <AssociatedConnUserName />
           <FullPath>Login - Grant Exec on sp_WhoIsActive to Non-DBA Logins.sql</FullPath>
         </FileNode>
+        <FileNode Name="Maintenance - Copy DB Roles.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintenance - Copy DB Roles.sql</FullPath>
+        </FileNode>
         <FileNode Name="Maintenance - Copy Logins - SQL 2000.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
