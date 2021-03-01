@@ -138,6 +138,12 @@
           <AssociatedConnUserName />
           <FullPath>Performance - Top Most Consuming Queries.sql</FullPath>
         </FileNode>
+        <FileNode Name="Performance - Waiting Tasks.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Performance - Waiting Tasks.sql</FullPath>
+        </FileNode>
         <FileNode Name="Performance - WhatIsPerformace View.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />

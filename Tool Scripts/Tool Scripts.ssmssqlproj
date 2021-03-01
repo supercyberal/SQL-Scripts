@@ -42,6 +42,12 @@
           <AssociatedConnUserName />
           <FullPath>Scripts - Change OLA Clean-up Time for Jobs.sql</FullPath>
         </FileNode>
+        <FileNode Name="Scripts - Check Client SET options.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Check Client SET options.sql</FullPath>
+        </FileNode>
         <FileNode Name="Scripts - Check for Enterprise Edition Features.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -186,6 +192,12 @@
           <AssociatedConnUserName />
           <FullPath>Scripts - Remove MDW.sql</FullPath>
         </FileNode>
+        <FileNode Name="Scripts - Report INT max allocation.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - Report INT max allocation.sql</FullPath>
+        </FileNode>
         <FileNode Name="Scripts - Script Out DB Mail Settings.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -324,11 +336,47 @@
           <AssociatedConnUserName />
           <FullPath>Scripts - SQL 2017 - Diagnostics Info Queries.sql</FullPath>
         </FileNode>
+        <FileNode Name="Scripts - SQL Server 2012 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2012 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
         <FileNode Name="Scripts - SQL Server 2012 Performance Dashboard Reports.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>Scripts - SQL Server 2012 Performance Dashboard Reports.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2014 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2014 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2016 SP1 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2016 SP1 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2016 SP2 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2016 SP2 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2017 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2017 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts - SQL Server 2019 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Scripts - SQL Server 2019 Diagnostic Information Queries.sql</FullPath>
         </FileNode>
         <FileNode Name="Scripts - SQLDM - Get XML for Reg-Gate Multi-Script.sql">
           <AssociatedConnectionMoniker />
