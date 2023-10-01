@@ -3,7 +3,7 @@ SET ANSI_NULLS ON
 GO
 
 /***********************************************************************************************************************************************
-# Stored Procedure: SPA_EventLog_DeleteOldRecords
+# Stored Procedure: spPurgeEventLogs
 
 # Purpose:
 - Delete old event log records. Default is 365 days.
@@ -24,7 +24,7 @@ N/A
 - ACOSTA - 2013-03-14
 ***********************************************************************************************************************************************/
 
-CREATE PROCEDURE [dbo].[SPA_EventLog_DeleteOldRecords]
+CREATE PROCEDURE [dbo].[spPurgeEventLogs]
 	@iNumDaysToKeep INT = 365
 	, @iTotalMinutesToRun INT = 5
 	, @iDeleteBatchSize INT = 1000
@@ -82,7 +82,7 @@ BEGIN
               
 		SELECT
 			@iTotalToBeDone = COUNT(*)
-		FROM [dbo].[sql_log_stats] el
+		FROM [dbo].[EventLog] el
 		WHERE [date] < @dDateToPurge;
               
 		-- =====================================================================================================================================
@@ -116,7 +116,7 @@ BEGIN
                            
 				BEGIN TRAN;
                            
-				DELETE TOP (@iDeleteBatchSize) FROM [dbo].[sql_log_stats]	--Table to delete from
+				DELETE TOP (@iDeleteBatchSize) FROM [dbo].[EventLog]	--Table to delete from
 				WHERE [date] < @dDateToPurge;								--Field to check against
                      
 				SET @iResultCount = @@ROWCOUNT;
