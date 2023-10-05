@@ -1,0 +1,14 @@
+CREATE DATABASE [DBATools];
+GO
+
+/* USAGE */
+EXEC [DBATools].[dbo].[CloneRDS]
+    @NewLogin = N'<NAME-OF-SQL-OR-WINDOWS-LOGIN-TO-CREATE'
+	,@NewLoginPwd = N'<PASSWORD-FOR-SQL-LOGIN>'
+	,@WindowsLogin = 'T' -- ONLY USE THIS IF CREATING A WINDOWS LOGIN
+	,@LoginToClone = N'<NAME-OF-MASTER-USER-LOGIN'
+	,@DatabaseName = N'';
+GO
+
+
+/* PASTE RESULTS INTO A WINDOW AND EXECUTE */
