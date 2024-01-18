@@ -8,10 +8,13 @@ BEGIN
 END
 GO
 ALTER PROCEDURE [dbo].[usp_rds_clone_login]
-    @NewLogin SYSNAME,          -- Login Name for the cloned login
-    @NewLoginPwd NVARCHAR(MAX), -- Password for the cloned login
+    @NewLogin SYSNAME,
+    -- Login Name for the cloned login
+    @NewLoginPwd NVARCHAR(MAX),
+    -- Password for the cloned login
     @WindowsAuth BIT,
-    @LoginToDuplicate SYSNAME   -- Login name to clone
+    @LoginToDuplicate SYSNAME
+-- Login name to clone
 AS
 BEGIN
     /*
@@ -27,12 +30,12 @@ BEGIN
     (
         SqlCommand NVARCHAR(MAX)
     );
-    DECLARE @DbName AS SYSNAME;
+    DECLARE @DBName AS SYSNAME;
     DECLARE @Database TABLE
     (
         DbName SYSNAME
     );
-    SET @DbName = '';
+    SET @DBName = '';
 
     SET @SQL = '/' + '*' + 'Cloning Process Steps' + '*' + '/';
     INSERT INTO #DuplicateLogins
@@ -250,15 +253,15 @@ BEGIN
     )
     SELECT @SQL;
 
-    WHILE @DbName IS NOT NULL
+    WHILE @DBName IS NOT NULL
     BEGIN
-        SET @DbName =
+        SET @DBName =
         (
-            SELECT MIN(DbName)FROM @Database WHERE DbName > @DbName
+            SELECT MIN(DbName)FROM @Database WHERE DbName > @DBName
         );
         SET @SQL = '
 INSERT INTO #DuplicateLogins (SqlCommand)
-SELECT ''USE [' + @DbName + ']; 
+SELECT ''USE [' + @DBName + ']; 
 IF EXISTS(SELECT name FROM sys.database_principals 
 WHERE name = ' + '''''' + @LoginToDuplicate + '''''' + ')
 BEGIN
@@ -275,27 +278,27 @@ END;''' ;
     )
     SELECT @SQL;
 
-    SET @DbName = '';
+    SET @DBName = '';
 
-    WHILE @DbName IS NOT NULL
+    WHILE @DBName IS NOT NULL
     BEGIN
-        SET @DbName =
+        SET @DBName =
         (
             SELECT MIN(DbName)
             FROM @Database
-            WHERE DbName > @DbName
+            WHERE DbName > @DBName
                   AND DbName NOT IN ( 'model', 'rdsadmin', 'rdsadmin_ReportServer', 'rdsadmin_ReportServerTempDB',
                                       'SSISDB'
                                     )
         );
         SET @SQL = '
 INSERT INTO #DuplicateLogins (SqlCommand)
-SELECT ''USE [' + @DbName + ']; EXEC sp_addrolemember @rolename = '''''' + R.name
+SELECT ''USE [' + @DBName + ']; EXEC sp_addrolemember @rolename = '''''' + R.name
 + '''''', @membername = ''''' + @NewLogin + ''''';''
-FROM [' + @DbName + '].sys.database_principals AS U
-JOIN [' + @DbName + '].sys.database_role_members AS RM
+FROM [' + @DBName + '].sys.database_principals AS U
+JOIN [' + @DBName + '].sys.database_role_members AS RM
 ON U.principal_id = RM.member_principal_id
-JOIN [' + @DbName + '].sys.database_principals AS R
+JOIN [' + @DBName + '].sys.database_principals AS R
 ON RM.role_principal_id = R.principal_id
 WHERE U.name = ''' + @LoginToDuplicate + ''';';
         EXECUTE (@SQL);
